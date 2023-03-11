@@ -3374,7 +3374,7 @@ table.alt tbody tr td {
 }
 
 #header.alt {
-	padding: 7em 5em 4em 5em;
+	padding: 4em 5em 0em 5em;
 }
 
 #header.alt h1 {
@@ -3409,7 +3409,7 @@ table.alt tbody tr td {
 #header.alt .logo img {
 	display: block;
 	margin: 0 auto;
-	max-width: 75%;
+	max-width: 20%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -3995,13 +3995,30 @@ body.is-preload #header.alt .logo {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	padding: 5em 5em 3em 5em;
-	width: calc(100% + 2em);
+	width: 100%;
 	margin: 0 0 3em -2em;
+	text-align: center;
 }
 
-#footer>* {
-	width: calc(50% - 2em);
-	margin-left: 2em;
+#footer section {
+	width: 100%;
+}
+
+.color{
+	color: white;
+}
+
+.der {
+	
+	text-align: right;
+}
+
+.izq{
+	text-align: left;
+}
+
+.pad{
+	padding: 3rem;
 }
 
 #footer .copyright {
